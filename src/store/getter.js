@@ -1,0 +1,1 @@
+export const getTag = (state) => state.userTag
