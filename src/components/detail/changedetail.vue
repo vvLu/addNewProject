@@ -167,7 +167,7 @@
                   <div class="item-rule">
                     <div>
                       <h3><i class="icon-book"></i>项目报备规则：</h3>
-                      <p>项目报备途径：提前{{detailList.way}}分钟报备‘房先生创图经纪人平台’</p>
+                      <p>项目报备途径：提前{{detailList.way}}小时报备‘房先生创图经纪人平台’</p>
                       <p>系统报备客户姓名标准：{{detailList.nameStandard}}</p>
                       <p>系统报备客户电话标准：{{detailList.telStandard}}</p>
                       <p>报备有效时间：{{detailList.protectDate}}天</p>

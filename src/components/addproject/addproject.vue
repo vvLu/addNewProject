@@ -189,7 +189,7 @@
     <div class="item" v-if="ids !== 1">
       <label class="labeltitle">报备途径<i class="icon-star"></i></label>
       <div class="duanline">
-        <div>提前</div><mu-text-field v-model="project.way"  hintText="60" @change="addName"/><div>分钟</div>
+        <div>提前</div><mu-text-field v-model="project.way"  hintText="1" @change="addName"/><div>小时</div>
       </div>
     </div>
     <div class="item" v-if="ids !== 1">
@@ -272,7 +272,7 @@ export default {
         yjbiaozhun: [{
           value: ''
         }],
-        way: '60',
+        way: '1',
         xmmaidian: [{
           value: ''
         }],
